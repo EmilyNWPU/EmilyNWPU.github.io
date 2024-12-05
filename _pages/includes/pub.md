@@ -1,60 +1,31 @@
 
 # 📝 Publications 
-## 🎙 Mobile Crowd Sensing
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2024</div><img src='images/ly.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Spatio-Temporal Memory Augmented Multi-Level Attention Network for Traffic Prediction](https://ieeexplore.ieee.org/document/10285880) \\
-**Yan Liu**, Bin Guo, Jingxiang Meng, Daqing Zhang, Zhiwen Yu
-
-<!-- [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong> -->
-<div>
-Traffic prediction is one of the fundamental spatio-temporal prediction tasks in urban computing, which is of great significance to a wide range of applications, e.g., traffic controlling, vehicle scheduling, etc. Recently, with the expansion of the city and the development of public transportation, long-range and long-term spatio-temporal correlations play a more important role in traffic prediction. However, it is challenging to model long-range spatial dependencies and long-term temporal dependencies simultaneously in two aspects: 
- - complex influential factors, including spatial, temporal and external factors. 
- - multiple spatio-temporal correlations, including long-range and short-range spatial correlations, as well as long-term and short-term temporal correlations. To solve these issues, we propose a spatio-temporal memory augmented multi-level attention network for fine-grained traffic prediction, entitled ST-MAN. Specifically, we design a spatio-temporal memory network to encode and memorize fine-grained spatial information and representative temporal patterns. Then, we propose a multi-level attention network to explicitly model both short-term local spatio-temporal dependencies and long-term global spatio-temporal dependencies at different spatial scales (i.e., grid and region levels) and temporal scales (i.e., daily and weekly levels). In addition, we design an external component that takes external factors and spatial embeddings as inputs to generate location-aware influence of the external factors much more efficiently. Finally, we design an end-to-end framework optimized with the contrastive objective and supervised objective to boost model performance. Empirical experiments over coarse-grained and fine-grained real-world datasets demonstrate the superiority of the ST-MAN model compared to several state-of-the-art baselines
-<!-- - **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu). -->
-<!-- - **Industry Impact**: FastSpeech has been deployed in [Microsoft Azure TTS service](https://techcommunity.microsoft.com/t5/azure-ai/neural-text-to-speech-extends-support-to-15-more-languages-with/ba-p/1505911) and supports 49 more languages with state-of-the-art AI quality. It was also shown as a text-to-speech system acceleration example in [NVIDIA GTC2020](https://resources.nvidia.com/events/GTC2020s21420).  -->
+1、**Yan Liu**, Bin Guo, Nuo Li, Yasan Ding, Zhouyangzi Zhang, and Zhiwen Yu. "CrowdTransfer: Enabling Crowd Knowledge Transfer in AIoT Community", IEEE Communications Surveys and Tutorials, 2024. <br>
+2、**Yan Liu**, Bin Guo, Jingxiang Meng, Daqing Zhang, Zhiwen Yu. "Spatio-Temporal Memory Augmented Multi-Level Attention Network for Traffic Prediction", IEEE Transactions on Knowledge and Data Engineering, 2023. (CCF A)<br>
+3、**Yan Liu**, Anlan Yu, Leye Wang, Bin Guo, Yang Li, Enze Yi, Daqing Zhang. "UniFi: A Unified Framework for Generalizable Gesture Recognition with Wi-Fi Signals using Consistency-guided Multi-View Networks", Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (ACM IMWUT), Full Paper, 2023. (CCF A)<br>
+4、**Yan Liu**, Bin Guo, Chao Chen, He Du, Zhiwen Yu, Daqing Zhang, Huadong Ma. "FooDNet: Toward an Optimized Food Delivery Network based on Spatial Crowdsourcing", IEEE Transactions on Mobile Computing, 2019, 18(6): 1288-1301. (CCF A)<br>
+5、**Yan Liu**, Bin Guo, Yang Wang, Wenle Wu, Zhiwen Yu, Daqing Zhang. "TaskMe: Multi-Task Allocation in Mobile Crowd Sensing", The 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing (ACM UbiComp), 2016. (CCF A)<br>
+6、**Yan Liu**, Bin Guo, Daqing Zhang, Djamal Zeghlache, Jingmin Chen, Sizhe Zhang, Dan Zhou, Xinlei Shi, Zhiwen Yu. "MetaStore: A Task-Adaptative Meta-Learning Model for Optimal Store Placement with Multi-City Knowledge Transfer", ACM Transactions on Intelligent Systems and Technology, 2021, 12(3): 1-23. <br>
+7、**Yan Liu**, Bin Guo, Daqing Zhang, Djamal Zeghlache, Jingmin Chen, Ke Hu, Sizhe Zhang, Dan Zhou, and Zhiwen Yu. "Knowledge Transfer with Weighted Adversarial Network for Cold-Start Store Site Recommendation", ACM Transactions on Knowledge Discovery from Data, 2021, 15(3):1-27. (CCF B)<br>
+8、**Yan Liu**, Bin Guo, Nuo Li, Jing Zhang, Jingmin Chen, Daqing Zhang, Yinxiao Liu, Zhiwen Yu, Sizhe Zhang, Lina Yao. "DeepStore: An Interaction-aware Wide&Deep Model for Store Site Recommendation with Attentional Spatial Embeddings", IEEE Internet of Things, 2019, 6(4):7319-7333. <br>
+9、Bin Guo, **Yan Liu**, Sicong Liu, Zhiwen Yu, Xingshe Zhou."CrowdHMT: Crowd Intelligence with the Deep Fusion of Human, Machine, and IoT",IEEE Internet of Things, vol.9, no. 24, 2022, pp. 24822-24842.<br>
+10、Bin Guo, **Yan Liu**, Leye Wang, Victor On-Kwok Li, Jacqueline C.K. Lam, Zhiwen Yu."Task Allocation in Spatial Crowdsourcing: Current State and Future Directions", IEEE Internet of Things, vol. 5, no. 3, 2018, pp. 1749-1764.<br>
+11、Bin Guo, **Yan Liu**, Wenle Wu, Zhiwen Yu, Qi Han."ActiveCrowd: A Framework for Optimized Multi-Task Allocation in Mobile Crowdsensing Systems", IEEE Transactions on Human-Machine Systems, vol. 47, no. 3, 2017, pp. 392-403. (ESI High Citation Paper)<br>
+12、Yasan Ding, Bin Guo, **Yan Liu**, Hao Wang, Haocheng Shen, and Zhiwen Yu. "PiercingEye: Identifying Both Faint and Distinct Clues for Explainable Fake News Detection with Progressive Dynamic Graph Mining", The 26th European Conference on Artificial Intelligence (ECAI'23), Macao, 2023.<br>
+13、Nuo Li, Bin Guo, **Yan Liu**, Yasan Ding, En Xu, Lina Yao, Zhiwen Yu. "Transfer How Much: A Fine-Grained Measure of the Knowledge Transferability of User Behavior Sequences in Social Network", The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD'22), 2022.<br>
+14、Nuo Li, Bin Guo, **Yan Liu**, En Xu, Yasan Ding, Lina Yao, Xiaopeng Fan, Zhiwen Yu. "Hierarchical Constrained Variational Autoencoder for Interaction-Sparse Recommendations",Information Processing and Management, 2024.<br>
+15、Nuo Li, Bin Guo, **Yan Liu**, Zhiwen Yu. "Disentangled-feature and Composite-prior VAE on Social Recommendation for New Users",Expert Systems With Applications, 2024.<br>
+16、Yao Jing, Bin Guo, **Yan Liu**, Daqing Zhang, Djamal Zeghlache, and Zhiwen Yu."Efficient Bike-sharing Repositioning with Cooperative Multi-Agent Deep Reinforcement Learning",ACM Transactions on Sensor Networks, 2023.<br>
+17、Jing Zhang, Bin Guo, Zhimin Li, **Yan Liu**, Zhiwen Yu, Qi Han. "CrowdTravel: Leveraging Cross-Modal CrowdSourced Data for Fine-grained and Context-based Travel Route Recommendation", IEEE International Conference on Ubiquitous Intelligence and Computing (IEEE UIC'19), Leicester, UK, 2019 (Best Student Paper Award).<br>
+18、Qianru Wang, Bin Guo, **Yan Liu**, Qi Han, Tong Xin, Zhiwen Yu. "CrowdNavi: Last-mile Outdoor Navigation for Pedestrians Using Mobile Crowdsensing", The 21st ACM Conference on Computer-Supported Cooperative Work and Social Computing (ACM CSCW'18), Full Paper, New York, USA, 2018.<br>
+19、Yang Guo, Bin Guo, **Yan Liu**, Zhu Wang, Yi Ouyang, Zhiwen Yu. "CrowdSafe: Detecting Extreme Driving Behaviors based on Mobile Crowdsensing", IEEE International Conference on Ubiquitous Intelligence and Computing (IEEE UIC'17), 2017 (Best Paper Award).<br>
+20、Yangzi Zhangzhou, Bin Guo, Wen Sun, **Yan Liu**, Zhiwen Yu."Cross-FCL: Toward a Cross-edge Federated Continual Learning Framework in Mobile Edge Computing Systems", IEEE Transactions on Mobile Computing, vol. 23, no. 1, 2024.<br>
+21、Yasan Ding, Bin Guo, **Yan Liu**, Yunji Liang, Haocheng Shen, Zhiwen Yu."MetaDetector: Meta Event Knowledge Transfer for Fake News Detection", ACM Transactions on Intelligent Systems and Technology, vol. 13, no. 6, 2022, pp. 1-25.<br>
+22、Nuo Li, Bin Guo, **Yan Liu**, Lina Yao, Jiaqi Liu, Zhiwen Yu."AskMe: Joint Individual-level and Community-level Behavior Interaction for Question Recommendation", World Wide Web Journal, 2021.<br>
+23、Bin Guo, Huihui Chen, **Yan Liu**, Chao Chen, Qi Han, Zhiwen Yu."From Crowdsourcing to Crowdmining:Using Implicit Human Intelligence for Better Understanding of Crowdsourced Data", World Wide Web Journal, vol. 23, no. 2, 2020, pp. 1101-1125.<br>
+24、Jing Du, Bin Guo, **Yan Liu**, Liang Wang, Qi Han, Chao Chen, Zhiwen Yu."CrowDNet: Enabling a Crowdsourced Object Delivery Network based on Modern Portfolio Theory", IEEE Internet of Things, vol. 6, no. 5, 2019,pp. 9030-9041.<br>
+Bin Guo, **Yan Liu**, Yi Ouyang, Vincent W. Zheng, Daqing Zhang, Zhiwen Yu."Harnessing the Power of the General Public for Crowdsourced Business Intelligence: A Survey", IEEE Access, vol. 7, no. 1, 2019, pp. 26606-26630.<br>
 </div>
-</div>
-</div>
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div> -->
-<!-- <div class='paper-box-text' markdown="1"> -->
-
-<!-- [FastSpeech: Fast, Robust and Controllable Text to Speech](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf) \\ -->
-<!-- **Yi Ren**, Yangjun Ruan, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu -->
-
-<!-- [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong> -->
-
-<!-- - FastSpeech is the first fully parallel end-to-end speech synthesis model. -->
-<!-- - **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu). -->
-<!-- - **Industry Impact**: FastSpeech has been deployed in [Microsoft Azure TTS service](https://techcommunity.microsoft.com/t5/azure-ai/neural-text-to-speech-extends-support-to-15-more-languages-with/ba-p/1505911) and supports 49 more languages with state-of-the-art AI quality. It was also shown as a text-to-speech system acceleration example in [NVIDIA GTC2020](https://resources.nvidia.com/events/GTC2020s21420). -->
-<!-- </div> -->
-<!-- </div> -->
-<!-- </div> -->
-
-
-<!-- - `AAAI 2024` [Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling](https://arxiv.org/abs/2312.11947), Rui Liu, Yifan Hu, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/walker-hyf/ECSS?style=social&label=Code+Stars)](https://github.com/walker-hyf/ECSS) -->
-
-
-## 🛜 Wireless Sensing
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/real3d.png' alt="sym" width="100%"></div></div> -->
-<!-- <div class='paper-box-text' markdown="1"> -->
-
-<!-- [Real3D-Portrait: One-shot Realistic 3D Talking Portrait Synthesis](https://openreview.net/forum?id=7ERQPyR2eb), Zhenhui Ye, Tianyun Zhong, Yi Ren, et al. <span style="color:red">(Spotlight)</span> [**Project**](https://real3dportrait.github.io/) | [**Code**](https://github.com/yerfor/Real3DPortrait) -->
-<!-- </div> -->
-<!-- </div> -->
-
-
-
-## 📚 Multi-Agent Collaboration
-
-
-
-
-## 🎼 Transfer Learning 
-
-<!-- - ``AAAI 2021`` [SongMASS: Automatic Song Writing with Pre-training and Alignment Constraint](https://arxiv.org/abs/2012.05168), Zhonghao Sheng, Kaitao Song, Xu Tan, **Yi Ren**, et al. -->
-<!-- - ``ACM-MM 2020`` <span style="color:red">(Oral)</span> [PopMAG: Pop Music Accompaniment Generation](https://dl.acm.org/doi/10.1145/3394171.3413721), **Yi Ren**, Jinzheng He, Xu Tan, et al. \| [**Project**](https://speechresearch.github.io/popmag/) -->
